@@ -1,0 +1,151 @@
+body {
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+    justify-content:center;
+    align-items:center;
+    display: flex;
+}
+
+
+.card {
+    margin-top:15px;
+    justify-content: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 18px;
+    width: 290px;
+    height: 530px;
+    padding: 25px;
+}
+
+.card2 {
+    background-color: hsl(216, 50%, 16%);
+    width : 300px;
+    border-radius :28px;
+}
+
+#i {
+    height: 290px;
+    width: 290px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor :pointer;
+}
+
+
+.image {
+    width: 100%;
+    position: relative;
+    height: 290px;
+}
+
+.header {
+    width : 30px;
+    height : 30px;
+}
+
+.activate {
+    color: hsl(0, 0%, 100%);
+    font-family: Outfit;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.info {
+    margin-top: 20px;
+    color: hsl(215, 32%,60%);
+    font-family: Outfit;
+}
+
+#tracker {
+    align-items: center;
+    justify-content: space-betweeen;
+    display: flex;
+    font-family: Outfit;
+}
+
+svg {
+    margin-right: 8px;
+}
+
+span#amount {
+    align-items: center;
+    display: flex;
+    color :hsl(178, 100%, 50%);
+    font-family: Outfit;
+    font-size: 16px;
+    margin-right:100px;
+}
+
+span#time {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 32%, 60%);
+    font-family: Outfit;
+    font-size: 16px;
+}
+
+.hr1 {
+    background-color: hsl(215, 32%, 27%);
+    opacity: 15%;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+}
+
+#avatar {
+    margin-top: 15px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#creation {
+    font-family: Outfit;
+    color: hsl(215, 32%, 60%);
+    margin-right: 5.5px;
+    opacity: 90%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    font-weight: 400;
+}
+
+h3 {
+    display :flex;
+    font-family: Outfit;
+    color: hsl(0, 0%, 100%);
+    display :flex;
+    margin-left: 10px;
+}
+
+.ref {
+    font-size : 13px;
+    display :flex;
+}
+
+#n1 {
+    display: flex;
+    color : hsl(178, 100%, 50%);
+    font-family : Outfit;
+    margin-right : 20px;
+    margin-left : 8px;
+    margin-top: 20px;
+}
+
+#n2 {
+    display: flex;
+    color : hsl(178, 100%, 50%);
+    font-family : Outfit;
+    margin-left : 8px;
+    margin-top: 20px;
+}
